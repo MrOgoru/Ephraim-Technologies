@@ -7,3 +7,4 @@
 [0907/144227.002:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
 [0907/144228.018:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
 [0907/144228.018:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0921/075741.260:ERROR:file_io.cc(90)] ReadExactly: expected 36, observed 0

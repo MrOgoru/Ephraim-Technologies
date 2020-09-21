@@ -23,11 +23,11 @@ $('.single-item').slick({
 });
 
 $('.p-slick').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
+  autoplay: true,
+  infinite: true,
+  autoplaySpeed: 3000,
   slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToScroll: 3,
   responsive: [{
       breakpoint: 1024,
       settings: {
@@ -50,8 +50,8 @@ $('.p-slick').slick({
         autoplay: true,
         infinite: true,
         autoplaySpeed: 2000,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToShow: 2,
+        slidesToScroll: 2
       }
     }
     // You can unslick at a given breakpoint now by adding:
