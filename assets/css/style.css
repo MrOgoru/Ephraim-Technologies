@@ -462,14 +462,27 @@ small {
   margin: 45px auto;
 }
 
+.portfolio-card {
+ 
+}
+
+.portfolio-card:hover {
+   transition: ease-in-out 0.2s;
+   box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    border-radius: 20px;
+    background: #fbfbfb;
+}
+
 .portfolio-card img {
   max-width: 339px;
+  padding: 5px;
 }
 
 .portfolio-card h3 {
   font-size: 18px;
   margin-bottom: 9px;
   color: #222;
+   padding: 5px;
 }
 
 .portfolio-card p {
@@ -477,6 +490,7 @@ small {
   line-height: 145.19%;
   /* or 20px */
   max-width: 341px;
+   padding: 5px;
 }
 
 .projects a {
