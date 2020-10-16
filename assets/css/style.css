@@ -1150,7 +1150,7 @@ textarea {
   font-size: 16px;
   border: none;
   resize: none;
-  font-family: : "Questrial", sans-serif;
+  font-family:"Questrial", sans-serif;
 }
 
 
@@ -1242,12 +1242,15 @@ ul {
   line-height: 1.8;
   color: #333333;
   text-align: justify;
+  max-width: 1100px;
+  font-size: 16px;
 }
 
 .product-flex {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
+  justify-content: center;
 }
 
 .pfi p {
@@ -1257,14 +1260,14 @@ ul {
 .in {
   border: 1px solid #444444;
   margin-right: 30px;
-  width: 195px;
+  width: 225px;
   height: 225px;
   border-radius: 4px;
 }
 
 .in img {
   width: 101px;
-  padding: 30px;
+  padding: 50px;
 }
 
 /*--faq page --*/
