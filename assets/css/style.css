@@ -462,10 +462,7 @@ small {
   margin: 45px auto;
 }
 
-.portfolio-card {
  
-}
-
 .portfolio-card:hover {
    transition: ease-in-out 0.2s;
    box-shadow: 0 0 2rem rgba(0,0,0,.2);
@@ -1214,17 +1211,23 @@ textarea {
 }
 
 
-ul {
+.cnt ul {
   margin: 0;
   padding: 0;
-  font-size: 12px;
-  ;
+  font-size: 14px;
   color: #111;
 }
+
+.cnt ul li {
+  line-height: 1.6;
+  letter-spacing: 0.003rem;
+}
+
 
 .map iframe {
   width: 100%;
 }
+
 
 /*--products-page--*/
 
@@ -1316,7 +1319,6 @@ ul {
 
 /*all----*/
 @media (max-width: 1000px) {
-
 
   .jbt {
     padding: 0;
