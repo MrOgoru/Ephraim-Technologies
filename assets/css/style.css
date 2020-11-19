@@ -1201,6 +1201,13 @@ textarea {
   align-items: center;
 }
 
+@media (max-width: 700px) {
+  .space {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
 
 .cnt p {
   font-weight: 600;
@@ -1214,11 +1221,11 @@ textarea {
 .cnt ul {
   margin: 0;
   padding: 0;
-  font-size: 14px;
   color: #111;
 }
 
 .cnt ul li {
+  font-size: 14px;
   line-height: 1.6;
   letter-spacing: 0.003rem;
 }
