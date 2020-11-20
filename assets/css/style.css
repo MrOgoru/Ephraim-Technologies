@@ -4,7 +4,6 @@ html {
   padding: 0;
   margin: 0;
   font-family: "Questrial", 'Segoe UI', sans-serif;
-  font-family: ;
   scroll-behavior: smooth;
 }
 
@@ -448,9 +447,11 @@ button {
   margin-bottom: 0;
 }
 
-small {
+.projects small a {
   font-size: 14px;
   margin-top: 9px;
+  color: #000;
+  text-transform: capitalize;
 }
 
 .portfolio {
@@ -464,22 +465,21 @@ small {
 
  
 .portfolio-card:hover {
-   transition: ease-in-out 0.2s;
-   box-shadow: 0 0 2rem rgba(0,0,0,.2);
-    border-radius: 20px;
+   transition: ease-in-out 0.3s;
+   box-shadow: 0 0 1rem rgba(0,0,0,.2);
     background: #fbfbfb;
+border-radius: 50px;;
 }
 
 .portfolio-card img {
-  max-width: 339px;
-  padding: 5px;
+  width: 100%;
 }
 
 .portfolio-card h3 {
   font-size: 18px;
   margin-bottom: 9px;
   color: #222;
-   padding: 5px;
+   padding: 10px;
 }
 
 .portfolio-card p {
@@ -487,7 +487,7 @@ small {
   line-height: 145.19%;
   /* or 20px */
   max-width: 341px;
-   padding: 5px;
+   padding: 10px;
 }
 
 .projects a {
