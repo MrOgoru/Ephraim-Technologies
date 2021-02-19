@@ -665,6 +665,10 @@ button {
   .wrapper {
     padding: 0 10px;
   }
+
+  .dj {
+    margin-bottom: 60px;
+  }
 }
 
 /*products----*/
@@ -899,6 +903,7 @@ footer a {
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
 }
 
 .ei img {
@@ -1022,9 +1027,10 @@ footer a {
 }
 
 #ups {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 12fr);
+  gap: 30px;
+  justify-items: center;
   padding: 0 20px;
 }
 
@@ -1069,6 +1075,7 @@ footer a {
 .quote {
   max-width: 436px;
   text-align: center;
+  padding: 20px;
 }
 
 .quote h2 {
@@ -1271,10 +1278,11 @@ textarea {
 }
 
 .product-flex {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   margin-top: 60px;
-  justify-content: center;
+  padding: 0  20px;;
+  gap: 30px;
 }
 
 .pfi p {
@@ -1283,7 +1291,6 @@ textarea {
 
 .in {
   border: 1px solid #444444;
-  margin-right: 30px;
   width: 225px;
   height: 225px;
   border-radius: 4px;
@@ -1355,15 +1362,19 @@ textarea {
     justify-content: center;
     justify-items: center;
   }
+  .product-flex {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
 
 @media (max-width: 700px) {
 
   /*--products-page*/
-  .product-flex {
-    justify-content: center;
-    align-items: center;
+    .product-flex {
+      grid-template-columns: 1fr;
   }
+
 
   .jbt {
     padding: 30px 0;
@@ -1373,7 +1384,13 @@ textarea {
     text-align: center;
   }
 
+  #ups {
+    grid-template-columns: 1fr;
+  }
 
+  .infp h3 {
+    font-size: 18px;
+  }
 
   .p p {
     text-align: left;
@@ -1714,6 +1731,14 @@ textarea {
   .hide {
     display: none;
   }
+
+  .quote {
+    max-width: 350px;
+  }
+  .cmpy input {
+    width: 100%;
+  }
+
 
   footer {
     flex-direction: column;
